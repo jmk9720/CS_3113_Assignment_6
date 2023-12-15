@@ -87,7 +87,7 @@ void Level1::initialise()
     m_state.player->set_speed(3.0f);
     m_state.player->set_acceleration(glm::vec3(0.0f, 0.0f, 0.0f));
     m_state.player->set_scale(glm::vec3(1.0f, 1.0f, 1.0f));
-    m_state.player->m_texture_id = Utility::load_texture("assets/images/player1.png");
+    m_state.player->m_texture_id = Utility::load_texture("assets/images/player6.png");
     m_state.player->stage_clear = false;
     m_state.player->death = false;
     set_dead(false);
@@ -101,7 +101,7 @@ void Level1::initialise()
     
     /**
      Enemies' stuff */
-    GLuint enemy_texture_id = Utility::load_texture("assets/images/player2.png");
+    GLuint enemy_texture_id = Utility::load_texture("assets/images/player4.png");
     
     m_state.enemies = new Entity[2];
     m_state.enemies[0].set_entity_type(ENEMY);

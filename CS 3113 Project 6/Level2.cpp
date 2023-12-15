@@ -93,7 +93,7 @@ void Level2::initialise()
     m_state.player->set_speed(3.0f);
     m_state.player->set_acceleration(glm::vec3(0.0f, 0.0f, 0.0f));
     m_state.player->set_scale(glm::vec3(1.0f, 1.0f, 1.0f));
-    m_state.player->m_texture_id = Utility::load_texture("assets/images/player1.png");
+    m_state.player->m_texture_id = Utility::load_texture("assets/images/player6.png");
     m_state.player->stage_clear = false;
     m_state.player->death = false;
     set_dead(false);
